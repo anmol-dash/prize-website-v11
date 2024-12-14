@@ -11,8 +11,6 @@
 # production
 /build
 
-/source/*.mp4
-
 # misc
 .DS_Store
 .env.local
