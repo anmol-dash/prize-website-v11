@@ -10,12 +10,22 @@ const LandingPage = () => {
   return (
     <div>
       <Navbar />
+
+      {/* Hero Section */}
       <header className="hero-section">
-        <video className="hero-video" autoPlay loop muted>
-          <source src="/windmill.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        {/* Container for the YouTube iframe */}
+        <div className="hero-video-container">
+          <iframe
+            className="hero-video"
+            src="https://www.youtube.com/embed/KPSgJwh-LLk?autoplay=1&loop=1&mute=1&playlist=KPSgJwh-LLk&controls=0&rel=0"
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          />
+        </div>
+
         <div className="hero-overlay"></div>
+
         <div className="hero-content">
           <h1 className="title">UPenn Eco-Venture Challenge</h1>
           <p className="subheading">Preparing tomorrow’s leaders to tackle today’s climate crisis.</p>
@@ -33,6 +43,7 @@ const LandingPage = () => {
         </div>
       </header>
 
+      {/* Main Content */}
       <main className="main-content">
         <section className="section">
           <div className="content">
@@ -79,10 +90,10 @@ const LandingPage = () => {
           <div className="content">
             <h2 className="heading">Prizes</h2>
             <p>
-            After three rounds of selection, winners will receive ____ for the 
-            ____ track and ____ for the ____ school track to support their 
-            start-up. Additionally, winners will have the opportunity to benefit 
-            from professional advising, mentorship, and internship opportunities.
+              After three rounds of selection, winners will receive ____ for the 
+              ____ track and ____ for the ____ school track to support their 
+              start-up. Additionally, winners will have the opportunity to benefit 
+              from professional advising, mentorship, and internship opportunities.
             </p>
           </div>
         </section>
@@ -95,9 +106,9 @@ const LandingPage = () => {
           <div className="content">
             <h2 className="heading">How to Participate</h2>
             <p>
-            This competition is for students pursuing a high school diploma or 
-            bachelor’s degree who don’t have experience in startups
-            or climate change. To participate, follow these steps:
+              This competition is for students pursuing a high school diploma or 
+              bachelor’s degree who don’t have experience in startups 
+              or climate change. To participate, follow these steps:
             </p>
             <ol>
               <li>Sign up by clicking the "Register Now" button.</li>
@@ -115,14 +126,11 @@ const LandingPage = () => {
           <div className="content">
             <h2 className="heading">Sponsors</h2>
             <p>
-            TBA
+              TBA
             </p>
-            
           </div>
         </section>
       </main>
-
-      
 
       <Footer />
     </div>
