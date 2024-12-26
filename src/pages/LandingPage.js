@@ -29,7 +29,7 @@ const LandingPage = () => {
           <p className="subheading">Preparing tomorrow’s leaders to tackle today’s climate crisis.</p>
           <Countdown />
           <img 
-            src="/double-arrow-down.png" 
+            src={`${process.env.PUBLIC_URL}/double-arrow-down.png`} 
             alt="Scroll down"
             className="scroll-arrow"
             onClick={() => {
