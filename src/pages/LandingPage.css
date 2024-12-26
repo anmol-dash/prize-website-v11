@@ -4,7 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif; 
   font-weight: 500; 
   color: #002657;
-  margin: 0; /* Good practice to reset default margin */
+  margin: 0; 
   padding: 0;
 }
 
@@ -43,7 +43,7 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
-  z-index: -1;
+  z-index: -1; 
 }
 
 /* Main hero text content */
@@ -157,7 +157,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Countdown styles (optional media queries) */
 @media screen and (min-width: 550px) {
   .countdown .content {
     gap: 30px;

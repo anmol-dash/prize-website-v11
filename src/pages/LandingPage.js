@@ -4,16 +4,14 @@ import Footer from '../components/Footer';
 import Countdown from '../components/countdown/countdown';
 import { Link } from 'react-router-dom';
 
-import './LandingPage.css'; // Import the CSS file
+import './LandingPage.css';
 
 const LandingPage = () => {
   return (
     <div>
       <Navbar />
 
-      {/* Hero Section */}
       <header className="hero-section">
-        {/* Container for the YouTube iframe */}
         <div className="hero-video-container">
           <iframe
             className="hero-video"
@@ -43,7 +41,6 @@ const LandingPage = () => {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="main-content">
         <section className="section">
           <div className="content">
