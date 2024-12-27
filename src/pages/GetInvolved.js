@@ -11,7 +11,7 @@ const GetInvolved = () => {
       <Navbar />
       <header className="hero-section">
         <video className="hero-video" autoPlay loop muted>
-          <source src="/about.mp4" type="video/mp4" />
+          <source src={`${process.env.PUBLIC_URL}/about.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="hero-overlay"></div>

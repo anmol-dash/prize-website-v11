@@ -12,16 +12,10 @@ const LandingPage = () => {
       <Navbar />
 
       <header className="hero-section">
-        <div className="hero-video-container">
-          <iframe
-            className="hero-video"
-            src="https://www.youtube.com/embed/KPSgJwh-LLk?autoplay=1&loop=1&mute=1&playlist=KPSgJwh-LLk&controls=0&rel=0"
-            frameBorder="0"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
-          />
-        </div>
-
+        <video className="hero-video" autoPlay loop muted>
+          <source src={`${process.env.PUBLIC_URL}/windmill.mp4`} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="hero-overlay"></div>
 
         <div className="hero-content">
