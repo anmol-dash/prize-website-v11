@@ -59,7 +59,7 @@ const GetInvolved = () => {
                 to our current sponsors for supporting impactful ideas and driving a sustainable
                 future.
               </p>
-              <p>Reach out to: <a href="mailto:prize-email@example.com">prize email</a> if you are interested in becoming a sponsor.</p>
+              <p>Reach out to: <a href="mailto:prize-email@example.com">PRIZE's email</a> if you are interested in becoming a sponsor.</p>
               <p><strong>Sponsor List:</strong></p>
               <p>Photos and descriptions of sponsors will be added here.</p>
             </div>
@@ -83,7 +83,7 @@ const GetInvolved = () => {
                 deck, and live pitch judging. We extend our gratitude to all past and current judges
                 for their invaluable contributions.
               </p>
-              <p>Reach out to: <a href="mailto:prize-email@example.com">prize email</a> if you are interested in becoming a judge or mentor.</p>
+              <p>Reach out to: <a href="mailto:prize-email@example.com">PRIZE's email</a> if you are interested in becoming a judge or mentor.</p>
               <p><strong>Judge List:</strong></p>
               <p>Photos and descriptions of judges will be added here.</p>
             </div>

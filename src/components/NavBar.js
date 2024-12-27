@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';  // Import Link from react-router-dom
 import './NavBar.css'; // Ensure proper CSS styling is in place
 
 const NavBar = () => {
@@ -21,12 +22,23 @@ const NavBar = () => {
           className="logo"
         />
       </div>
+
       <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
-        <a href="/" onClick={closeMenu}>HOME</a>
-        <a href="/about" onClick={closeMenu}>ABOUT US</a>
-        <a href="/apply" onClick={closeMenu}>APPLICATION</a>
-        <a href="/get-involved" onClick={closeMenu}>GET INVOLVED</a>
+        <Link to="/" onClick={closeMenu}>
+          HOME
+        </Link>
+        <Link to="/about" onClick={closeMenu}>
+          ABOUT US
+        </Link>
+        <Link to="/apply" onClick={closeMenu}>
+          APPLICATION
+        </Link>
+        <Link to="/get-involved" onClick={closeMenu}>
+          GET INVOLVED
+        </Link>
       </div>
+
+      {/* Social Media Links (external) */}
       <div className="social-media">
         <a
           href="https://www.instagram.com/pennclimateventures/"
@@ -59,6 +71,8 @@ const NavBar = () => {
           />
         </a>
       </div>
+
+      {/* Hamburger Menu for smaller screens */}
       <div className="hamburger" onClick={toggleMenu} aria-expanded={isOpen}>
         <div className="line"></div>
         <div className="line"></div>
