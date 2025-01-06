@@ -12,7 +12,7 @@ const LandingPage = () => {
       <Navbar />
 
       <header className="hero-section">
-        <video className="hero-video" autoPlay loop muted>
+      <video className="hero-video" autoPlay loop muted controlsList="nodownload nofullscreen noremoteplayback">
           <source src={`${process.env.PUBLIC_URL}/windmill.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -66,9 +66,10 @@ const LandingPage = () => {
           <div className="content">
             <h2 className="heading">Timeline</h2>
             <ul>
-              <li>Registration Opens: Dec 1, 2024</li>
-              <li>Submission Deadline: Jan 15, 2025</li>
-              <li>Final Event: Feb 20, 2025</li>
+              <li>First Round Registration Opens - Dec 15</li>
+              <li>First Round Submission Deadline - March 8</li>
+              <li>Second Round Registration Deadline - April 4-6</li>
+              <li>Final Event - April 26-27</li>
             </ul>
           </div>
         </section>

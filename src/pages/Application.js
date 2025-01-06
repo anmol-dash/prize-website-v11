@@ -47,7 +47,7 @@ const Application = () => {
     <div>
       <Navbar />
       <header className="hero-section">
-        <video className="hero-video" autoPlay loop muted>
+      <video className="hero-video" autoPlay loop muted controlsList="nodownload nofullscreen noremoteplayback">
           <source src={`${process.env.PUBLIC_URL}/about.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -70,9 +70,12 @@ const Application = () => {
             though it doesn’t need to be extensive.
 
             <br/><br/>
-            The deadline for the first round is January 15. Apply below!
+            The deadline for the first round is March 8th. Apply below!
             </p>
-            <button className="cta-button">Application Portal</button>
+
+            <a href="https://airtable.com/appsSPuO4G3jMYsxD/pagSMx2lt3o1Mb2qx/form" className="cta-button" target="_blank" rel="noopener noreferrer">University Application</a>
+            <br/>
+            <a href="https://airtable.com/appsSPuO4G3jMYsxD/pag57g9FCHY7p8KUO/form" className="cta-button" target="_blank" rel="noopener noreferrer">High School Application</a>
           </div>
         </section>
 
@@ -85,10 +88,10 @@ const Application = () => {
           <div className="content">
             <h2 className="heading">Timeline</h2>
             <ul>
-              <li>Application Opens - Jan 15</li>
-              <li>Written applications - Mar 8</li>
-              <li>Slide Deck due around - April 4~6</li>
-              <li>Live Presentation - April 26-27</li>
+              <li>First Round Registration Opens - Dec 15</li>
+              <li>First Round Submission Deadline - March 8</li>
+              <li>Second Round Registration Deadline - April 4-6</li>
+              <li>Final Event - April 26-27</li>
             </ul>
           </div>
         </section>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';  // Import Link from react-router-dom
-import './NavBar.css'; // Ensure proper CSS styling is in place
+import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +38,6 @@ const NavBar = () => {
         </Link>
       </div>
 
-      {/* Social Media Links (external) */}
       <div className="social-media">
         <a
           href="https://www.instagram.com/pennclimateventures/"
@@ -72,7 +71,6 @@ const NavBar = () => {
         </a>
       </div>
 
-      {/* Hamburger Menu for smaller screens */}
       <div className="hamburger" onClick={toggleMenu} aria-expanded={isOpen}>
         <div className="line"></div>
         <div className="line"></div>

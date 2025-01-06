@@ -10,7 +10,7 @@ const AboutPage = () => {
     <div>
       <Navbar />
       <header className="hero-section">
-        <video className="hero-video" autoPlay loop muted>
+      <video className="hero-video" autoPlay loop muted controlsList="nodownload nofullscreen noremoteplayback">
           <source src={`${process.env.PUBLIC_URL}/about.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

@@ -96,7 +96,7 @@ body {
   height: 1px;
   background-color: #e0e0e0;
   width: 50%;
-  margin: 40px auto; /* Center horizontally */
+  margin: 40px auto;
 }
 
 .main-content {
