@@ -1,5 +1,5 @@
 {
-  "name": "prize",
+  "name": "prize1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,5 +43,5 @@
     "gh-pages": "^6.2.0",
     "react-router-dom": "^6.28.0"
   },
-  "homepage": "https://Penn-Climate-Ventures.github.io/prize-website-v2"
+  "homepage": "https://prize.pennclimateventures.org"
 }
