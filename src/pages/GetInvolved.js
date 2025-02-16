@@ -49,6 +49,7 @@ const GetInvolved = () => {
         <div className="content">
           {selectedContent === 'sponsors' && (
             <div>
+              <br />
               <h2>Sponsor</h2>
               <p>
                 Sponsoring the UPenn EcoVenture Challenge empowers future leaders to tackle the
@@ -59,14 +60,16 @@ const GetInvolved = () => {
                 to our current sponsors for supporting impactful ideas and driving a sustainable
                 future.
               </p>
-              <p>Reach out to: <a href="mailto:prize-email@example.com">PRIZE's email</a> if you are interested in becoming a sponsor.</p>
-              <p><strong>Sponsor List:</strong></p>
-              <p>Photos and descriptions of sponsors will be added here.</p>
+              <p>Reach out to: prizepcv@gmail.com if you are interested in becoming a sponsor.</p>
+              {/* <p><strong>Sponsor List:</strong></p>
+              <p>Photos and descriptions of sponsors will be added here.</p> */}
+              <br /><br /><br />
             </div>
           )}
 
           {selectedContent === 'judges' && (
             <div>
+              <br />
               <h2>Judge</h2>
               <p>
                 Judges are essential to hosting a successful UPenn EcoVenture competition. By
@@ -83,9 +86,10 @@ const GetInvolved = () => {
                 deck, and live pitch judging. We extend our gratitude to all past and current judges
                 for their invaluable contributions.
               </p>
-              <p>Reach out to: <a href="mailto:prize-email@example.com">PRIZE's email</a> if you are interested in becoming a judge or mentor.</p>
-              <p><strong>Judge List:</strong></p>
-              <p>Photos and descriptions of judges will be added here.</p>
+              <p>Reach out to: prizepcv@gmail.com if you are interested in becoming a judge or mentor.</p>
+              {/* <p><strong>Judge List:</strong></p>
+              <p>Photos and descriptions of judges will be added here.</p> */}
+              <br /><br />
             </div>
           )}
         </div>

@@ -49,6 +49,11 @@ const AboutPage = () => {
         <section className="section">
           <div className="content">
             <h2 className="heading">Our Team</h2>
+            <br />
+            <img
+                src={`${process.env.PUBLIC_URL}/prize.png`}
+                alt="PRIZE Committee"
+            />
             <p>
               Founded in 2021, Penn Climate Ventures (PCV) is a thriving student-led organization at the University of Pennsylvania dedicated to developing real-world environmental solutions. With over 300 undergraduate and graduate students spanning the Wharton School, the School of Engineering and Applied Science, and the School of Arts and Sciences, PCV brings together diverse expertise to tackle critical sustainability challenges. Through collaborations with consulting firms, policy organizations, and community initiatives, PCV works to translate research and ideas into tangible impact. However, PCV's mission felt incomplete without broader outreach to high schools and other universities.
             </p>
@@ -68,20 +73,11 @@ const AboutPage = () => {
             >
               Get Involved
             </Link>
-
             <br /><br />
-
-            <img
-                src={`${process.env.PUBLIC_URL}/prize.png`}
-                alt="PRIZE Committee"
-            />
           </div>
         </section>
       </main>
 
-      <section className="section">
-          <hr />
-      </section>
 
       <Footer />
     </div>

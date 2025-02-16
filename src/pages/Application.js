@@ -39,7 +39,7 @@ const Application = () => {
     {
       id: 'q6',
       question: 'What should I do if I have additional questions?',
-      answer: 'Email us at …'
+      answer: 'Feel free to email us at prizepcv@gmail.com!'
     }
   ];
 
@@ -113,13 +113,13 @@ const Application = () => {
                 </ul>
               </li>
               <li>
-                <strong>Feb 23 – Open Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
-              </li>
-              <li>
                 <strong>Mar 14 – First Round Submission Deadline:</strong> Submit your complete application by this date.
               </li>
               <li>
-                <strong>Mar 21 – First Round Results Announced:</strong> The top 10 teams per track (20 teams total) will progress to Round 2.
+                <strong>Mar 22 – Opening Ceremony:</strong> Attend our virtual opening event to get to know the competition, meet our sponsors, and hear insights from Penn alumni in the energy field.
+              </li>
+              <li>
+                <strong>Mar 28 – First Round Results Announced:</strong> The top 16 teams per track will progress to Round 2.
               </li>
             </ul>
 
@@ -132,7 +132,7 @@ const Application = () => {
                 <strong>Mentorship Support</strong>
               </li>
               <li>
-                <strong>Apr 21 – Second Round Submission Deadline:</strong> Ensure your updated and enhanced proposal is submitted by this date. Details will be released on March 28, 2025.
+                <strong>Apr 4 – Second Round Submission Deadline:</strong> Ensure your updated and enhanced proposal is submitted by this date. Details will be released on March 28, 2025.
               </li>
               <li>
                 <strong>Apr 18 – Second Round Results Announced:</strong> Four teams per track (eight teams total) will advance to the Final Round.
@@ -318,6 +318,7 @@ const Application = () => {
                 </div>
               </div>
             ))}
+            <br /><br />
           </div>
         </section>
       </main>
