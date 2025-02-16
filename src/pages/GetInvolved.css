@@ -76,7 +76,7 @@ body {
   border: 0;
   height: 1px;
   background-color: #e0e0e0;
-  width: 50%;
+  width: 70%;
   margin: 40px auto;
 }
 
@@ -101,10 +101,10 @@ body {
 }
 
 .section .content {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   text-align: left;
-  padding: 0 20px; 
+  padding: 0 20px;
 }
 
 .section .content .heading {
@@ -173,7 +173,6 @@ body {
   color: #002657;
 }
 
-
 .button-group {
     display: flex;
     justify-content: center;
@@ -209,7 +208,7 @@ body {
     width: 50%;
     margin: 0 auto;
     text-align: left;
-    padding: 40px 20px;
+    padding: 0px 20px;
   }
   
   .content h2 {
@@ -253,3 +252,11 @@ body {
       transform: translateY(0);
     }
   }
+
+.ecoprize-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
