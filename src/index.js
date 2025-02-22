@@ -5,11 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-// Dynamically set basename for GitHub Pages vs. local development
-const basename =
-  process.env.NODE_ENV === 'production'
-    ? '/prize-website-v2'
-    : '/'; // In dev, use "/", so links work at http://localhost:3000
+// For a custom domain, we don't need a subdirectory basename
+// Just use '/' for the root of the domain
+const basename = '/';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
